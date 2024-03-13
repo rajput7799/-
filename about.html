@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="shortcut icon" href="fav2.png" type="image/x-icon">
+    <style>
+        ::selection {
+            background-color: fuchsia;
+            color: white;
+        }
+
+        h1 {
+            font-size: 40px;
+            margin: 0;
+        }
+
+        .box {
+            display: flex;
+            justify-content: center;
+            height: fit-content;
+            color: crimson;
+            margin: 0px;
+        }
+
+        .content {
+            height: 600px;
+            overflow-y: scroll;
+            overflow-x: wrap;
+            border: 2px solid black;
+            margin-top: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 700px;
+            padding: 15px;
+            border-radius: 20px;
+            box-shadow: 3px 7px 8px 1px grey;
+            background-color: rgba(255, 255, 255, 0.5);
+        }
+
+        input {
+            border-radius: 15px;
+            padding: 5px;
+            font-size: medium;
+        }
+
+        input:hover {
+            background-color: crimson;
+            color: white;
+            border-radius: 25px;
+        }
+
+        .navbar {
+            display: flex;
+            margin-top: 90px;
+            justify-content: center;
+            padding: 0;
+        }
+
+        dt {
+            text-transform: uppercase;
+            font-size: xx-large;
+            color: blue;
+            margin: 5px;
+            font-weight: 800;
+        }
+
+        dl {
+            font-size: x-large;
+            color: rgb(240, 0, 80);
+            margin-left: 10px;
+            font-weight: 800;
+        }
+
+        li {
+            list-style-type: "🎓";
+        }
+        @media screen and (max-width:500px){
+            .content {
+            height: 450px;
+            overflow-x: scroll;
+            width: 300px;
+        }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <h1>About Personnel</h1>
+    </div>
+    <div class="content">
+        <dl>
+            <dt>Name:</dt>
+            <dd>Chetan Rajput</dd>
+            <dt>D.O.B:</dt>
+            <dd>2nd April 2003</dd>
+            <dt>Contact No.</dt>
+            <dd>7351732352</dd>
+            <dt>Email id:</dt>
+            <dd>rjputchetanrj@gmail.com</dd>
+            <dt>Address:</dt>
+            <dd>Haldwani,263139</dd>
+            <dt>Education:</dt>
+            <dd>
+                <li>Highschool in 2020</li>
+            </dd>
+            <dd>
+                <li>Intermediate in 2022</li>
+            </dd>
+            <dd>
+                <li>Continuing Diploma in C.S.E.</li>
+            </dd>
+            <dt>Work Experience:</dt>
+            <dd>Fresher </dd>
+            <dt>Career Goals:</dt>
+            <dd>Seeking a role that allows me to utilize my diverse skill set and passion for continuous learning.</dd>
+            <dt>Skills:</dt>
+            <dd>Good with electronics, good handle at C language and good office application operator.</dd>
+            <dt>Hobbies:</dt>
+            <dd>Music, puzzle solving and minor electronic projects.</dd>
+        </dl>
+    </div>
+    <footer>
+        <ul class="navbar">
+            <a href="index.html"><input type="button" value="Backward"></a>
+        </ul>
+    </footer>
+</body>
+
+</html>
